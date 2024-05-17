@@ -1,0 +1,65 @@
+.slider {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 100px;
+}
+
+.slide {
+    display: none;
+}
+
+.slideActive {
+    display: block;
+}
+
+.slider img {
+    width: 100%;
+}
+
+.voltar,
+.proximo {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+}
+
+.voltar {
+    left: 0;
+}
+
+.proximo {
+    right: 0;
+}
+
+.dots {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: gray;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.dotActive {
+    background-color: white;
+}
+
+@media screen and (min-width: 767px) and (max-width: 3000px) {
+    .slider {
+        width: 60%;
+    }
+}
