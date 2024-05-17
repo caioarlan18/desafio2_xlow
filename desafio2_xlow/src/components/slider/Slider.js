@@ -26,10 +26,10 @@ export function Slider() {
                     </a>
                 </div>
             ))}
-            <button className={styles.voltar} onClick={proximoBanner}>‹</button>
-            <button className={styles.proximo} onClick={voltarBanner}>›</button>
+            <button className={styles.voltar} onClick={voltarBanner}>‹</button>
+            <button className={styles.proximo} onClick={proximoBanner}>›</button>
             <div className={styles.dots}>
-                {arrayImagens.map((_, index) => (
+                {arrayImagens.map((a, index) => (
                     <span
                         key={index}
                         className={index === indexAtual ? styles.dotActive : styles.dot}

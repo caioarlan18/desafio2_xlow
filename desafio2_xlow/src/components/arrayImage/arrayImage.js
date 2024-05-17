@@ -13,7 +13,8 @@ const arrayImagens = [
         url: "https://imgs.search.brave.com/yuWhBrgZhuvDNP31V02nWpwjzQffNxOm3LCcmU7Go3k/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93d3cu/cXVlcm92aWFqYXJt/YWlzLmNvbS93cC1j/b250ZW50L3VwbG9h/ZHMvMjAyMC8wOC9s/YWdvLWxvdWlzZS5q/cGc",
         alt: "imagem3",
         link: "#"
-    }
+    },
+
 ];
 
 export default arrayImagens
